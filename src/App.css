@@ -1,0 +1,44 @@
+
+.menu{
+    display: flex;
+    flex-direction: column;
+}
+.credit-card{
+
+    background: url(./components/images/cr.jpg) no-repeat;
+  height: 280px;
+  margin-left: 400px;
+
+  position: relative;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    margin-left: 160px;
+    margin-top: 300px;
+    width: 150px;
+    justify-content: space-evenly;
+    
+
+}
+.card-number{
+
+position: absolute;
+top:120px;
+left:120px;
+}
+
+.card-name{
+
+    position: absolute;
+    top:180px;
+    left:90px;
+    }
+    .card-date{
+        position: absolute;
+        top:160px;
+        left:150px;
+        color: black;
+        font-weight: 400;
+
+    }
